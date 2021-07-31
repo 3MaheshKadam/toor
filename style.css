@@ -1,87 +1,96 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.body{
+.body_{
     font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    background-color: whitesmoke;
 }
 .one{
     width: 100%;
-    padding: 10px 0;
+
 }
 .container{
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 30px 0;
-    /* background-color: #ff0000; */
-    display: flex;
+    /* width: 60%; */
+    width: 40rem;
+    margin: 2rem auto;
+    padding: 10px 10px;
+    /* max-width: 1100px; */
 }
-.main_one{
-    width: 100%;
-    padding: 20px 10px;
-}
-.main_one h1{
+.heading{
+    background-color: bisque;
+    text-align: center;
     font-weight: bold;
-    font-size: 2.5rem;
-    width:30% ;
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
-.main_one p{
-    font-size: 1.2rem;
-    width: 35%;
-    padding: 10px 0;
-}
-.main_two{
-    width: 40%;
+.main{
+    /* background-color: red; */
     padding: 10px 10px;
+   
+    
+    /* border: 1px solid;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem; */
 }
-.sub_container{
-    /* background-color: aquamarine; */
-    width: 90%;
-    padding: 10px 0;
-    margin: 0 auto;
-    max-width: 1100px;
-    /* display: flex; */
-}
-.main2{
-    background-color: burlywood;
-    padding: 10px 10px;
-    width: 30%;
-    border: 1px transparent;
-    border-radius: 10px;
-}
-.mar1{
-margin: 0;
-}
+.main_img{
+    /* width: 40rem; */
+    /* height:20rem ; */
+    width: 100%;
+    height: 20rem;
+    border: 1px solid transparent;
 
-.mar2{
-    margin-top: 1rem;
-    /* padding-bottom: 1rem; */
-}
-.mar3{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
     margin-top: 2rem;
-    /* padding-bottom: 2rem; */
+   
+}
+.main_text{
+    padding: 20px 10px;
+    font-size: 1.1rem;
 }
 .row{
     display: flex;
-    /* background-color: red; */
-}
-.space{
+    /* width: 80vh; */
+    /* background-color: violet; */
     justify-content: space-between;
+    padding: 20px 0;
 }
-img{
-    width: 2rem;
-    border: 1px transparent;
-    border-radius: 100px;
-    padding: 10px 10px;
+.row p{
+    background-color: rgb(241, 237, 7);
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    margin: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 1.1rem;
 }
-.text{
-    line-height: 1.5;
+.button{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(240, 116, 229);
+    display: flex;
+    justify-content: center;
+    width: 30vh;
+    padding: 10px 0;
+    color: black;
+    /* font-size: bold; */
+    font-weight: bold;
 }
-
-h5{
-    color: gray;
+@media only screen and(max-width:730px){
+ .container{
+     width: 30rem;
+ }   
 }
-.some_text{
-    color: rgb(53, 51, 51);
+@media only screen and(max-width:525px){
+.container{
+    width: 25rem;
+}
+}
+@media only screen and(max-width:430px){
+    .container{
+        width: 2rem;
+    }
 }
