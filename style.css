@@ -81,16 +81,18 @@
 }
 @media only screen and(max-width:730px){
  .container{
-     width: 30rem;
- }   
+     width: 100%;
+ } 
+   
 }
 @media only screen and(max-width:525px){
 .container{
-    width: 25rem;
+    width: 100%;
 }
+.main{}
 }
 @media only screen and(max-width:430px){
     .container{
-        width: 2rem;
+        width: 100%;
     }
 }
